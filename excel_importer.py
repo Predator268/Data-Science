@@ -5,6 +5,7 @@ from pandas import DataFrame
 gender = []
 X = []
 
+# Reading file from location
 df = pd.read_excel (r'C:\Users\Golam Rabbani\Downloads\500-person-gender-height-weight-bodymassindex\500_Person_Gender_Height_Weight_Index.xlsx')
 
 df = df.values
